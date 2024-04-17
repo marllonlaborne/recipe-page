@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+p,
+li {
+  font-family: 'Outfit', sans-serif;
+  color: hsl(24, 5%, 18%);
+}
+
+h1,
+h2 {
+  font-family: 'Young Serif', sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: hsl(30, 54%, 90%);
+}
+
+main {
+  padding: 45px;
+  margin-top: 150px;
+  max-width: 760px;
+  background-color: white;
+}
+
+main,
+.recipe-info img {
+  border-radius: 20px;
+}
+
+.recipe-info h1 {
+  font-size: 2.5rem;
+  margin: 20px 0px;
+  color: hsl(24, 5%, 18%);
+}
+
+.recipe-info p {
+  margin-bottom: 30px;
+}
+
+.recipe-preparation-time {
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: #FFF7FC;
+  font-family: 'Outfit', sans-serif;
+}
+
+.recipe-preparation-time ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: disc;
+  margin: 20px 0px 5px 20px;
+}
+
+.recipe-preparation-time li {
+  color: hsl(30, 10%, 34%);
+  padding-left: 15px;
+}
