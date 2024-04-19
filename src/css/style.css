@@ -39,7 +39,7 @@ body {
 
 main {
   padding: 45px;
-  margin-top: 150px;
+  margin: 150px 0;
   max-width: 760px;
   background-color: white;
 }
