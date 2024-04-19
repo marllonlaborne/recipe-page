@@ -79,3 +79,30 @@ main,
   color: hsl(30, 10%, 34%);
   padding-left: 15px;
 }
+
+.recipe-ingredients {
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(197, 197, 197, 0.3);
+  height: 270px;
+}
+
+.recipe-ingredients h2 {
+  color: hsl(14, 45%, 36%);
+  margin-top: 30px;
+}
+
+.recipe-ingredients ul {
+  margin-left: 18px;
+}
+
+.recipe-ingredients li::marker {
+  content: '⬝ ';
+  font-size: 1.5rem;
+  color: hsl(14, 45%, 36%);
+}
+
+.recipe-ingredients li {
+  color: hsl(30, 10%, 34%);
+  padding-left: 15px;
+  margin: 10px 0;
+}
