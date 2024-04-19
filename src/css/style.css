@@ -135,3 +135,29 @@ main,
   border-bottom: 1px solid rgba(197, 197, 197, 0.3);
   height: 360px;
 }
+
+.recipe-nutrition h2 {
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 20px;
+}
+
+.recipe-nutrition .nutritional-values {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nutritional-values .values {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 280px 12px 30px;
+}
+
+.nutritional-values .values:not(:last-child) {
+  border-bottom: 1px solid rgba(197, 197, 197, 0.3);
+}
+
+.nutritional-values .values p:nth-child(2) {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
