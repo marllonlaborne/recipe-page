@@ -161,3 +161,47 @@ main,
   color: hsl(14, 45%, 36%);
   font-weight: 600;
 }
+
+@media (max-width: 375px) {
+  main {
+    max-width: 375px;
+    padding: 0;
+    margin: 0;
+    border-radius: initial;
+  }
+  .recipe-info img {
+    border-radius: 0px;
+  }
+  .recipe-info h1 {
+    font-size: 2.2rem;
+    margin: 20px 30px;
+    line-height: 40px;
+  }
+  .recipe-info p {
+    margin: 25px 30px;
+  }
+  .recipe-preparation-time {
+    padding: 20px;
+    margin: 20px;
+  }
+  .recipe-ingredients,
+  .recipe-instructions,
+  .recipe-nutrition {
+    margin: 30px;
+  }
+  .recipe-ingredients {
+    height: 290px;
+  }
+  .recipe-instructions {
+    height: 650px;
+  }
+  .recipe-nutrition {
+    margin: 30px;
+  }
+  .recipe-nutrition p {
+    width: 300px;
+  }
+  .nutritional-values .values {
+    padding-right: 0px;
+  }
+}
