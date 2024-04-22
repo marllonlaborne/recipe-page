@@ -1,0 +1,21 @@
+
+.recipe-preparation-time {
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: var(--rose-white);
+  font-family: var(--outfit);
+}
+
+.recipe-preparation-time ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: disc;
+  margin: 20px 0px 5px 20px;
+}
+
+.recipe-preparation-time li {
+  color: var(--wenge-brown);
+  padding-left: 15px;
+}

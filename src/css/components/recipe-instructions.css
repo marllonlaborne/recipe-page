@@ -1,0 +1,28 @@
+
+.recipe-instructions h2 {
+  font-size: 1.7rem;
+  color: var(--nutmeg);
+  margin-bottom: 30px;
+}
+
+.recipe-instructions li::marker {
+  color: var(--nutmeg);
+  font-weight: var(--semi-bold);
+}
+
+.recipe-instructions ul {
+  list-style: decimal;
+  margin-left: 15px;
+}
+
+.recipe-instructions li {
+  color: var(--wenge-brown);
+  padding-left: 15px;
+  margin: 12px 0;
+}
+
+.recipe-instructions {
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--transparent-bar);
+  height: 360px;
+}
