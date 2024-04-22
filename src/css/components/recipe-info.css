@@ -1,0 +1,14 @@
+main,
+.recipe-info img {
+  border-radius: 20px;
+}
+
+.recipe-info h1 {
+  font-size: 2.5rem;
+  margin: 20px 0px;
+  color: var(--dark-charcoal);
+}
+
+.recipe-info p {
+  margin-bottom: 30px;
+}

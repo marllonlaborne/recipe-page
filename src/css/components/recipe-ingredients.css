@@ -1,0 +1,27 @@
+.recipe-ingredients {
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--transparent-bar);
+  height: 270px;
+}
+
+.recipe-ingredients h2 {
+  font-size: 1.7rem;
+  color: var(--nutmeg);
+  margin-top: 30px;
+}
+
+.recipe-ingredients ul {
+  margin-left: 18px;
+}
+
+.recipe-ingredients li::marker {
+  content: '⬝ ';
+  font-size: 1.5rem;
+  color: var(--nutmeg);
+}
+
+.recipe-ingredients li {
+  color: var(--wenge-brown);
+  padding-left: 15px;
+  margin: 10px 0;
+}
