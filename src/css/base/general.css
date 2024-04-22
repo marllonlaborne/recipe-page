@@ -1,0 +1,40 @@
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--eggshell);
+}
+
+main {
+  padding: 45px;
+  margin: 150px 0;
+  max-width: 760px;
+  background-color: var(--white);
+}
+
+h1,
+h2 {
+  font-family: var(--young-serif);
+  font-weight: var(--regular-weight);
+}
+
+h3 {
+  color: var(--dark-raspberry);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+p,
+li {
+  font-family: var(--outfit);
+  color: var(--dark-charcoal);
+}
